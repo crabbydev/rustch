@@ -6,7 +6,7 @@
 set -e
 
 # Configuration
-REPO_URL="https://github.com/rustch-project/rustch"
+REPO_URL="https://github.com/crabbydev/rustch"
 INSTALL_DIR="/usr/local/bin"
 BINARY_NAME="rustch"
 TMP_DIR="/tmp/rustch-install"
@@ -142,10 +142,9 @@ build_from_source() {
     
     # Download source code
     log_info "Downloading source code..."
-    curl -L "${REPO_URL}/archive/refs/heads/main.tar.gz" -o rustch.tar.gz
+    curl -L "${REPO_URL}/archive/main.tar.gz" -o rustch.tar.gz
     tar -xzf rustch.tar.gz
     cd rustch-main
-
     
     # Build the project
     log_info "Building rustch..."
