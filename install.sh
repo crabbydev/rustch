@@ -142,7 +142,7 @@ build_from_source() {
     
     # Download source code
     log_info "Downloading source code..."
-    curl -L "${REPO_URL}/archive/main.tar.gz" -o rustch.tar.gz
+    curl -L "${REPO_URL}/archive/refs/heads/main.tar.gz" -o rustch.tar.gz
     tar -xzf rustch.tar.gz
     cd rustch-main
     
