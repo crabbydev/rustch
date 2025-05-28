@@ -1,4 +1,4 @@
-# 🚀 rfetch
+# 🚀 rustch
 
 A lightning-fast, modern Rust-based system information tool with beautiful ASCII art logos and theme colors for Linux/Unix distributions.
 
@@ -71,51 +71,51 @@ Ubuntu         WM:: Mutter
 ### Quick Install (Recommended)
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/yourusername/rfetch/main/install.sh | bash
+curl -sSL https://raw.githubusercontent.com/crabbydev/rustch/main/install.sh | bash
 ```
 
 ### Manual Installation
 
 #### From Source (requires Rust)
 ```bash
-git clone https://github.com/yourusername/rfetch.git
-cd rfetch
+git clone https://github.com/crabbydev/rustch.git
+cd rustch
 cargo build --release
-sudo cp target/release/rfetch /usr/local/bin/
+sudo cp target/release/rustch /usr/local/bin/
 ```
 
 #### Pre-built Binaries
-Download the latest release for your platform from the [Releases](https://github.com/yourusername/rfetch/releases) page.
+Download the latest release for your platform from the [Releases](https://github.com/crabbydev/rustch/releases) page.
 
 ### Package Managers
 
 #### Arch Linux (AUR)
 ```bash
-yay -S rfetch
+yay -S rustch
 # or
-paru -S rfetch
+paru -S rustch
 ```
 
 #### Homebrew (macOS/Linux)
 ```bash
-brew install rfetch
+brew install rustch
 ```
 
 #### Cargo
 ```bash
-cargo install rfetch
+cargo install rustch
 ```
 
 ## 📖 Usage
 
 ### Basic Usage
 ```bash
-rfetch
+rustch
 ```
 
 ### Command Line Options
 ```bash
-rfetch --help
+rustch --help
 
 A lightning-fast Rust-based system information tool
 
@@ -132,21 +132,21 @@ Options:
 ### Examples
 ```bash
 # Standard output with ASCII art and colors
-rfetch
+rustch
 
 # Minimal output without ASCII art
-rfetch --no-art
+rustch --no-art
 
 # Force specific distribution
-rfetch --distro arch
+rustch --distro arch
 
 # Monochrome output
-rfetch --no-color
+rustch --no-color
 ```
 
 ## 🔧 Configuration
 
-rfetch automatically detects your system and displays appropriate ASCII art and colors. No configuration files needed!
+rustch automatically detects your system and displays appropriate ASCII art and colors. No configuration files needed!
 
 ### Environment Variables
 - `XDG_CURRENT_DESKTOP` - Desktop environment detection
@@ -161,8 +161,8 @@ rfetch automatically detects your system and displays appropriate ASCII art and 
 
 ### Build Steps
 ```bash
-git clone https://github.com/yourusername/rfetch.git
-cd rfetch
+git clone https://github.com/crabbydev/rustch
+cd rustch
 
 # Debug build
 cargo build
@@ -205,7 +205,7 @@ rfetch is designed for speed and efficiency:
 
 | Tool | Execution Time | Memory Usage | Binary Size |
 |------|----------------|--------------|-------------|
-| rfetch | **85ms** | **4.2MB** | **1.8MB** |
+| rustch | **85ms** | **4.2MB** | **1.8MB** |
 | neofetch | 450ms | 25MB | N/A (script) |
 | screenfetch | 380ms | 18MB | N/A (script) |
 | fastfetch | 120ms | 8MB | 3.2MB |
@@ -221,7 +221,7 @@ We welcome contributions! Here's how you can help:
 4. Test on the target distribution
 
 ### Reporting Issues
-- Use the [issue tracker](https://github.com/yourusername/rfetch/issues)
+- Use the [issue tracker](https://github.com/crabbydev/rustch/issues)
 - Include your distribution and rfetch version
 - Provide terminal output if relevant
 
@@ -267,16 +267,16 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-- 📚 [Documentation](https://github.com/yourusername/rfetch/wiki)
-- 💬 [Discussions](https://github.com/yourusername/rfetch/discussions)
-- 🐛 [Issues](https://github.com/yourusername/rfetch/issues)
-- 📧 Email: your.email@example.com
+- 📚 [Documentation](https://github.com/crabbydev/rustch/wiki)
+- 💬 [Discussions](https://github.com/crabbydev/rustch/discussions)
+- 🐛 [Issues](https://github.com/crabbydev/rustch/issues)
+
 
 ---
 
 <div align="center">
 
-**⭐ Star this repository if you find rfetch useful! ⭐**
+**⭐ Star this repository if you find rustch useful! ⭐**
 
 Made with ❤️ and 🦀 Rust
 
