@@ -2,7 +2,7 @@
 
 # Variables
 CARGO = cargo
-BINARY_NAME = rfetch
+BINARY_NAME = rustch
 TARGET_DIR = target
 RELEASE_DIR = $(TARGET_DIR)/release
 DEBUG_DIR = $(TARGET_DIR)/debug
