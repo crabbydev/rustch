@@ -145,6 +145,7 @@ build_from_source() {
     curl -L "${REPO_URL}/archive/refs/heads/main.tar.gz" -o rustch.tar.gz
     tar -xzf rustch.tar.gz
     cd rustch-main
+
     
     # Build the project
     log_info "Building rustch..."
