@@ -75,19 +75,6 @@ sudo cp target/release/rustch /usr/local/bin/
 #### Pre-built Binaries
 Download the latest release for your platform from the [Releases](https://github.com/crabbydev/rustch/releases) page.
 
-### Package Managers
-
-#### Arch Linux (AUR)
-```bash
-yay -S rustch
-# or
-paru -S rustch
-```
-
-#### Homebrew (macOS/Linux)
-```bash
-brew install rustch
-```
 
 #### Cargo
 ```bash
