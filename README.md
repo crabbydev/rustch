@@ -18,21 +18,9 @@ A lightning-fast, modern Rust-based system information tool with beautiful ASCII
 - 📦 **Zero Dependencies** - Single binary with no external runtime requirements
 - 🎯 **Neofetch Alternative** - Drop-in replacement with better performance
 
-## 🖼️ Screenshots
+## 🖼️ Screenshot
 
-```
-         _     OS:: Ubuntu 22.04 LTS
-     ---(_)    Host:: ThinkPad X1 Carbon
- _/  ---  \    Kernel:: 6.2.0-26-generic
-(_) |   |      Uptime:: 2h 15m
-  \  --- _/    Packages:: 1847 (dpkg)
-     ---(_)    Shell:: zsh
-               DE:: GNOME
-Ubuntu         WM:: Mutter
-               Terminal:: gnome-terminal
-               CPU:: Intel i7-1185G7 (8 cores)
-               Memory:: 8.2GB / 16.0GB
-```
+![Screenshot](rustch.png)
 
 ## 🐧 Supported Distributions
 
