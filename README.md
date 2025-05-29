@@ -210,7 +210,7 @@ We welcome contributions! Here's how you can help:
 
 ### Reporting Issues
 - Use the [issue tracker](https://github.com/crabbydev/rustch/issues)
-- Include your distribution and rfetch version
+- Include your distribution and rustch version
 - Provide terminal output if relevant
 
 ### Pull Requests
