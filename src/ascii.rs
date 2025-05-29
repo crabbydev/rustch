@@ -100,16 +100,27 @@ fn fedora_ascii(theme: &crate::colors::ThemeColors) -> Vec<String> {
 
 fn centos_ascii(theme: &crate::colors::ThemeColors) -> Vec<String> {
     vec![
-        " _____^_____".color(theme.primary).to_string(),
-        "|           |".color(theme.primary).to_string(),
-        "|           |".color(theme.primary).to_string(),
-        "|___________|".color(theme.primary).to_string(),
-        "    _|_|_".color(theme.primary).to_string(),
-        "     (o)".color(theme.primary).to_string(),
-        "  ---oOO".color(theme.primary).to_string(),
-        "  __|| ||__".color(theme.primary).to_string(),
+        "                 ..                   ".color(theme.primary).to_string(),
+        "               .PLTJ.                 ".color(theme.primary).to_string(),
+        "              <><><><>                ".color(theme.primary).to_string(),
+        "     KKSSV' 4KKK LJ KKKL.'VSSKK      ".color(theme.primary).to_string(),
+        "     KKV' 4KKKKK LJ KKKKAL 'VKK      ".color(theme.primary).to_string(),
+        "     V' ' 'VKKKK LJ KKKKV' ' 'V      ".color(theme.primary).to_string(),
+        "     .4MA.' 'VKK LJ KKV' '.4Mb.      ".color(theme.primary).to_string(),
+        "   . KKKKKA.' 'V LJ V' '.4KKKKK .    ".color(theme.primary).to_string(),
+        " .4D KKKKKKKA.'' LJ ''.4KKKKKKK FA4. ".color(theme.primary).to_string(),
+        "<QDD ++++++++++++  ++++++++++++  XDD>".color(theme.primary).to_string(),
+        " 'VD KKKKKKKK'.. LJ ..'KKKKKKKK FV'  ".color(theme.primary).to_string(),
+        "   ' VKKKKV'. .4 LJ K. .'VKKKV '     ".color(theme.primary).to_string(),
+        "      'VK'. .4KK LJ KKA. .'KV'       ".color(theme.primary).to_string(),
+        "     A. . .4KKKK LJ KKKKA. . .4      ".color(theme.primary).to_string(),
+        "     KKA' 'KKKKK LJ KKKKK' 'AKK      ".color(theme.primary).to_string(),
+        "     KKSSA. VKKK LJ KKKV .ASSKK      ".color(theme.primary).to_string(),
+        "              <><><><>                ".color(theme.primary).to_string(),
+        "               'MKKM'                 ".color(theme.primary).to_string(),
+        "                 ''                   ".color(theme.primary).to_string(),
         "".to_string(),
-        format!("{}entOS", "C".color(theme.secondary)),
+        format!("               {}entOS", "C".color(theme.secondary)),
     ]
 }
 
